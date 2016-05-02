@@ -7,4 +7,4 @@ RUN echo $JAVA_HOME
 
 # 从github下载war包
 # 拷贝war包到tomcat的目录下
-# COPY . /var/www/html/
+COPY *.war $CATALINA_HOME/webapp
