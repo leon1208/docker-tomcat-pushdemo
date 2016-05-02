@@ -8,6 +8,6 @@ RUN echo $JAVA_HOME
 
 # 从github下载war包
 # 拷贝war包到tomcat的目录下
-COPY *.war $CATALINA_HOME/webapps/
+COPY wechat.war $CATALINA_HOME/webapps/
 
 RUN ls $CATALINA_HOME/webapps/
