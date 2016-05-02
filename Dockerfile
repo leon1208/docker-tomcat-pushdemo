@@ -1,5 +1,6 @@
 # 使用tomcat7 镜像
-FROM daocloud.io/daocloud/dao-tomcat:v7.0.55
+# FROM daocloud.io/daocloud/dao-tomcat:v7.0.55
+FROM tutum/tomcat:6.0
 
 # 打印tomcat目录
 RUN echo $CATALINA_HOME
