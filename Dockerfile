@@ -1,6 +1,6 @@
 # 使用tomcat7 镜像
 FROM daocloud.io/daocloud/dao-tomcat
 
-
-# /var/www/html/ 为 Apache 目录
+# 从github下载war包
+# 拷贝war包到tomcat的目录下
 # COPY . /var/www/html/
