@@ -13,4 +13,5 @@ RUN pwd
 # 拷贝war包到tomcat的目录下
 COPY *.war $CATALINA_HOME/webapp/
 
+RUN ls $CATALINA_HOME/
 RUN ls $CATALINA_HOME/webapp/
